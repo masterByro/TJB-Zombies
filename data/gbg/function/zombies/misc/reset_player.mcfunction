@@ -2,6 +2,7 @@
 scoreboard players set @s DownTimer 0
 tag @s remove Downed
 tag @s remove Juggernog
+tag @s remove QuickReload
 effect clear @s
 clear @s
 gamemode adventure @s

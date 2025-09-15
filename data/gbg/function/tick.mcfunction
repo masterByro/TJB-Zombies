@@ -25,12 +25,12 @@ execute as @a[scores={NewKill=1..}] run function gbg:zombies/misc/reward_points
 execute as @a[scores={Damage=1..}] run function gbg:zombies/misc/reward_on_damage
 
 execute if score Global GamePlaying matches 1 at @a run particle minecraft:ash ~ ~5 ~ 40 1 40 0.05 300 force
-execute unless entity @e[type=zombie] if score Global ZombiesLeft matches 0 if score Global GamePlaying matches 1 run function gbg:misc/wait_round
+execute unless entity @e[type=zombie] if score Global ZombiesLeft matches 0 if score Global GamePlaying matches 1 run function gbg:zombies/rounds/wait_round
 
 #last zombie
 scoreboard players set Zombies ZombiesLeft 0
 execute if score Global ZombiesLeft matches 0 as @e[type=zombie] run scoreboard players add Zombies ZombiesLeft 1
-execute if score Global ZombiesLeft matches 0 if score Zombies ZombiesLeft matches 1 if score Global GamePlaying matches 1 as @e[type=zombie,limit=1,sort=random] run function gbg:misc/last_zombie
+execute if score Global ZombiesLeft matches 0 if score Zombies ZombiesLeft matches 1 if score Global GamePlaying matches 1 as @e[type=zombie,limit=1,sort=random] run function gbg:zombies/misc/last_zombie
 # Zombie Spawn
 scoreboard players add Global SpawnClock 1
 execute if score Global SpawnClock >= Global SpawnRate if score Global ZombiesLeft matches 1.. run function gbg:zombies/zombie_stats/summon_zombie
