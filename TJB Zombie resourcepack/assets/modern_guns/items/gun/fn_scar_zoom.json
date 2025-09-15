@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/gun/fn_scar_zoom"
+	},
+    "oversized_in_gui": true
+}

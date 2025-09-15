@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/gun/m1a"
+	},
+    "oversized_in_gui": true
+}

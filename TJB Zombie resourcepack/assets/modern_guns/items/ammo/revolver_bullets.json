@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/ammo/revolver_bullets"
+	},
+    "oversized_in_gui": true
+}

@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/equipment/land_mine"
+	},
+    "oversized_in_gui": true
+}

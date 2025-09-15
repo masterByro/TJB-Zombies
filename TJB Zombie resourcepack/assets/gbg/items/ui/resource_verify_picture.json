@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "model",
+        "model": "gbg:item/ui/resource_verify_picture"
+    },
+    "oversized_in_gui": true
+}

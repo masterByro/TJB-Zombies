@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "modern_guns:item/spas_12_2"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 5, 9],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 5], "texture": "#1"},
+				"east": {"uv": [14, 0, 16, 5], "texture": "#1"},
+				"south": {"uv": [14, 0, 16, 5], "texture": "#1"},
+				"west": {"uv": [14, 0, 16, 5], "texture": "#1"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#1"},
+				"down": {"uv": [14, 3, 16, 5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 9.25, 3.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 9.25, 3.25]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [20, 131, 0],
+			"translation": [0.25, 6.25, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"head": {
+			"translation": [0, 12.5, -5.75],
+			"scale": [3, 1, 1]
+		},
+		"fixed": {
+			"translation": [0, 6, 0.25],
+			"scale": [1.1, 1.1, 1.1]
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "gbg:item/gun_ammo/minigun",
+		"particle": "gbg:item/gun_ammo/minigun"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 3],
+			"to": [11, 7, 13],
+			"faces": {
+				"north": {"uv": [10, 0, 16, 7], "texture": "#0"},
+				"east": {"uv": [0, 0, 10, 7], "texture": "#0"},
+				"south": {"uv": [10, 0, 16, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 10, 7], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 10], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.5, 7, 2.5],
+			"to": [11.5, 8, 8.5],
+			"faces": {
+				"north": {"uv": [0, 15, 7, 16], "texture": "#0"},
+				"east": {"uv": [0, 15, 6, 16], "texture": "#0"},
+				"south": {"uv": [0, 15, 7, 16], "texture": "#0"},
+				"west": {"uv": [0, 15, 6, 16], "texture": "#0"},
+				"up": {"uv": [0, 10, 7, 16], "texture": "#0"},
+				"down": {"uv": [0, 10, 7, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.502, 6.995, 7.5],
+			"to": [11.502, 7.995, 13.5],
+			"faces": {
+				"north": {"uv": [0, 15, 7, 16], "texture": "#0"},
+				"east": {"uv": [0, 15, 6, 16], "texture": "#0"},
+				"south": {"uv": [0, 15, 7, 16], "texture": "#0"},
+				"west": {"uv": [0, 15, 6, 16], "texture": "#0"},
+				"up": {"uv": [0, 16, 7, 10], "texture": "#0"},
+				"down": {"uv": [0, 11, 7, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [-0.75, 2.5, 2.5],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [-0.75, 2.5, 2.5],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3.25, 2],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3.25, 2],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"ground": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 3, 0]
+		},
+		"head": {
+			"translation": [0, 0, -3]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 4.5, 0]
+		}
+	}
+}

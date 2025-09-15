@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/ammo/standard/sniper_rifle_magazine"
+	},
+    "oversized_in_gui": true
+}

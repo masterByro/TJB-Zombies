@@ -1,0 +1,334 @@
+{
+  "ak47_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/ak47_fire",
+        "stream": false
+      }
+    ]
+  },
+  "ak47_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/ak47_reload",
+        "stream": true
+      }
+    ]
+  },
+  "austeyr_ef88_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/austeyr_ef88_fire",
+        "stream": false
+      }
+    ]
+  },
+  "austeyr_ef88_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/austeyr_ef88_reload",
+        "stream": true
+      }
+    ]
+  },
+  "barrett_m82_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/barrett_m82_fire",
+        "stream": false
+      }
+    ]
+  },
+  "barrett_m82_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/barrett_m82_reload",
+        "stream": true
+      }
+    ]
+  },
+  "beretta_486_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/beretta_486_fire",
+        "stream": false
+      }
+    ]
+  },
+  "beretta_486_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/beretta_486_reload",
+        "stream": true
+      }
+    ]
+  },
+  "desert_eagle_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/desert_eagle_fire",
+        "stream": false
+      }
+    ]
+  },
+  "desert_eagle_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/desert_eagle_reload",
+        "stream": true
+      }
+    ]
+  },
+  "fn_scar_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/fn_scar_fire",
+        "stream": false
+      }
+    ]
+  },
+  "fn_scar_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/fn_scar_reload",
+        "stream": true
+      }
+    ]
+  },
+  "glock_17_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/glock_17_fire",
+        "stream": false
+      }
+    ]
+  },
+  "glock_17_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/glock_17_reload",
+        "stream": true
+      }
+    ]
+  },
+  "m1a_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/m1a_fire",
+        "stream": false
+      }
+    ]
+  },
+  "m1a_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/m1a_reload",
+        "stream": true
+      }
+    ]
+  },
+  "m4_carbine_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/m4_carbine_fire",
+        "stream": false
+      }
+    ]
+  },
+  "m4_carbine_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/m4_carbine_reload",
+        "stream": true
+      }
+    ]
+  },
+  "mp5_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/mp5_fire",
+        "stream": false
+      }
+    ]
+  },
+  "mp5_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/mp5_reload",
+        "stream": true
+      }
+    ]
+  },
+  "remington_870_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/remington_870_fire",
+        "stream": false
+      }
+    ]
+  },
+  "remington_870_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/remington_870_reload",
+        "stream": true
+      }
+    ]
+  },
+  "spas_12_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/spas_12_fire",
+        "stream": false
+      }
+    ]
+  },
+  "spas_12_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/spas_12_reload",
+        "stream": true
+      }
+    ]
+  },
+  "thompson_machine_gun_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/thompson_machine_gun_fire",
+        "stream": false
+      }
+    ]
+  },
+  "thompson_machine_gun_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/thompson_machine_gun_reload",
+        "stream": true
+      }
+    ]
+  },
+  "winchester_model_70_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/winchester_model_70_fire",
+        "stream": false
+      }
+    ]
+  },
+  "winchester_model_70_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/winchester_model_70_reload",
+        "stream": true
+      }
+    ]
+  },
+  "rocket_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/rocket_fire",
+        "stream": true
+      }
+    ]
+  },
+  "minigun_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/minigun_fire",
+        "stream": true
+      }
+    ]
+  },
+  "heavy_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/heavy_reload",
+        "stream": true
+      }
+    ]
+  },
+  "grenade_launcher_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/grenade_launcher_fire1",
+        "stream": false
+      },
+      {
+        "name": "modern_guns:shoot/grenade_launcher_fire2",
+        "stream": false
+      }
+    ]
+  },
+  "grenade_launcher_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/grenade_launcher_reload1",
+        "stream": false
+      },
+      {
+        "name": "modern_guns:reload/grenade_launcher_reload2",
+        "stream": false
+      },
+      {
+        "name": "modern_guns:reload/grenade_launcher_reload3",
+        "stream": false
+      },
+      {
+        "name": "modern_guns:reload/grenade_launcher_reload4",
+        "stream": false
+      }
+    ]
+  },
+  "luger_p08_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/luger_p08_fire1",
+        "stream": false
+      },
+      {
+        "name": "modern_guns:shoot/luger_p08_fire2",
+        "stream": false
+      },
+      {
+        "name": "modern_guns:shoot/luger_p08_fire3",
+        "stream": false
+      },
+      {
+        "name": "modern_guns:shoot/luger_p08_fire4",
+        "stream": false
+      }
+    ]
+  },
+  "luger_p08_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/luger_p08_reload",
+        "stream": true
+      }
+    ]
+  },
+  "smith_and_wesson_model_29_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/smith_and_wesson_model_29_fire",
+        "stream": false
+      }
+    ]
+  },
+  "colt_python_fire": {
+    "sounds": [
+      {
+        "name": "modern_guns:shoot/colt_python_fire",
+        "stream": false
+      }
+    ]
+  },
+  "revolver_reload": {
+    "sounds": [
+      {
+        "name": "modern_guns:reload/revolver_reload",
+        "stream": true
+      }
+    ]
+  }
+}

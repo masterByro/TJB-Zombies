@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "model",
+        "model": "gbg:item/gun/standard/grenade_launcher_zoom"
+    },
+    "oversized_in_gui": true
+}

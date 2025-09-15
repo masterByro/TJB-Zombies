@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/ammo/standard/rocket"
+	},
+    "oversized_in_gui": true
+}

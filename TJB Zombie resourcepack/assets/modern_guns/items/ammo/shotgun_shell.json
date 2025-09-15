@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/ammo/shotgun_shell"
+	},
+    "oversized_in_gui": true
+}

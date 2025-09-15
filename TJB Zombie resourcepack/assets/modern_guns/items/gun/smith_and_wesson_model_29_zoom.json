@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/gun/smith_and_wesson_model_29_zoom"
+	},
+    "oversized_in_gui": true
+}

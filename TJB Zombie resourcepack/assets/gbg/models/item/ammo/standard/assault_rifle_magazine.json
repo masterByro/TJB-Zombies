@@ -1,0 +1,78 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "gbg:item/gun_ammo/standard2"
+	},
+	"elements": [
+		{
+			"from": [7.5, 8.05, 6.5],
+			"to": [8.5, 8.05, 9.5],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 3, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 3, 0], "texture": "#1"},
+				"up": {"uv": [5, 0, 6, 3], "texture": "#1"},
+				"down": {"uv": [5, 0, 6, 3], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.25, 1, 6.25],
+			"to": [8.75, 8, 9.75],
+			"faces": {
+				"north": {"uv": [0.75, 0, 2.25, 7], "texture": "#1"},
+				"east": {"uv": [0.75, 0, 4.25, 7], "texture": "#1"},
+				"south": {"uv": [0.75, 0, 2.25, 7], "texture": "#1"},
+				"west": {"uv": [0.75, 0, 4.25, 7], "texture": "#1"},
+				"up": {"uv": [1, 0, 2.5, 3.5], "texture": "#1"},
+				"down": {"uv": [1, 0, 2.5, 3.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0, 6],
+			"to": [9, 1, 10],
+			"faces": {
+				"north": {"uv": [0, 6, 2, 7], "texture": "#1"},
+				"east": {"uv": [0, 6, 4, 7], "texture": "#1"},
+				"south": {"uv": [0, 6, 2, 7], "texture": "#1"},
+				"west": {"uv": [0, 6, 4, 7], "texture": "#1"},
+				"up": {"uv": [0, 6, 2, 10], "texture": "#1"},
+				"down": {"uv": [0, 6, 2, 10], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.25, 1.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1.25, 1.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 5.5, 2.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 5.5, 2.25]
+		},
+		"ground": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [26, 47, 0],
+			"translation": [0, 4.75, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"rotation": [-52, 180, 0],
+			"translation": [0, 16.5, -21.5],
+			"scale": [4, 4, 1]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-0.5, 3.75, 0]
+		}
+	}
+}

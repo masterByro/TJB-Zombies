@@ -1,0 +1,386 @@
+{
+  "damned": {
+    "sounds": [
+      {
+        "name": "gbg:zombies/damned",
+        "stream": false
+      }
+    ]
+  },
+  "ray_gun_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/ray_gun_fire",
+        "stream": false
+      }
+    ]
+  },
+  "ray_gun_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/ray_gun_reload",
+        "stream": true
+      }
+    ]
+  },
+  "laser_shield": {
+    "sounds": [
+      {
+        "name": "gbg:equipment/laser_shield",
+        "stream": true
+      }
+    ]
+  },
+  "pistol_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/pistol_reload",
+        "stream": false
+      }
+    ]
+  },
+  "assault_rifle_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/assault_rifle_reload",
+        "stream": true
+      }
+    ]
+  },
+  "shotgun_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/shotgun_reload",
+        "stream": true
+      }
+    ]
+  },
+  "sniper_rifle_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/sniper_rifle_reload",
+        "stream": true
+      }
+    ]
+  },
+  "laser_cannon_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/laser_cannon_reload",
+        "stream": true
+      }
+    ]
+  },
+  "laser_pistol_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/laser_pistol_reload",
+        "stream": true
+      }
+    ]
+  },
+  "beep": {
+    "sounds": [
+      {
+        "name": "gbg:equipment/beep",
+        "stream": false
+      }
+    ]
+  },
+  "assault_rifle_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/assault_rifle_fire",
+        "stream": false
+      }
+    ]
+  },
+  "laser_cannon_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/laser_cannon_fire",
+        "stream": false
+      }
+    ]
+  },
+  "laser_pistol_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/laser_pistol_fire",
+        "stream": false
+      }
+    ]
+  },
+  "pistol_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/pistol_fire",
+        "stream": false
+      }
+    ]
+  },
+  "shotgun_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/shotgun_fire",
+        "stream": false
+      }
+    ]
+  },
+  "sniper_rifle_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/sniper_rifle_fire",
+        "stream": false
+      }
+    ]
+  },
+  "laser_rifle_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/laser_rifle_fire",
+        "stream": false
+      }
+    ]
+  },
+  "bandage_use": {
+    "sounds": [
+      {
+        "name": "gbg:medical/bandage_use",
+        "stream": true
+      }
+    ]
+  },
+  "medkit_use": {
+    "sounds": [
+      {
+        "name": "gbg:medical/medkit_use",
+        "stream": true
+      }
+    ]
+  },
+  "syringe_use": {
+    "sounds": [
+      {
+        "name": "gbg:medical/syringe_use",
+        "stream": true
+      }
+    ]
+  },
+  "turret_explode": {
+    "sounds": [
+      {
+        "name": "gbg:turret/explode1",
+        "stream": true
+      },
+      {
+        "name": "gbg:turret/explode2",
+        "stream": true
+      },
+      {
+        "name": "gbg:turret/explode3",
+        "stream": true
+      }
+    ]
+  },
+  "turret_lower": {
+    "sounds": [
+      {
+        "name": "gbg:turret/lower1",
+        "stream": false
+      },
+      {
+        "name": "gbg:turret/lower2",
+        "stream": false
+      },
+      {
+        "name": "gbg:turret/lower3",
+        "stream": false
+      }
+    ]
+  },
+  "turret_raise": {
+    "sounds": [
+      {
+        "name": "gbg:turret/raise1",
+        "stream": false
+      },
+      {
+        "name": "gbg:turret/raise2",
+        "stream": false
+      },
+      {
+        "name": "gbg:turret/raise3",
+        "stream": false
+      }
+    ]
+  },
+  "auto_shot": {
+    "sounds": [
+      {
+        "name": "gbg:turret/auto_shot",
+        "stream": false
+      }
+    ]
+  },
+  "sentry_shot": {
+    "sounds": [
+      {
+        "name": "gbg:turret/sentry_shot",
+        "stream": false
+      }
+    ]
+  },
+  "perdition_shot": {
+    "sounds": [
+      {
+        "name": "gbg:turret/perdition_shot1",
+        "stream": false
+      },
+      {
+        "name": "gbg:turret/perdition_shot2",
+        "stream": false
+      },
+      {
+        "name": "gbg:turret/perdition_shot3",
+        "stream": false
+      },
+      {
+        "name": "gbg:turret/perdition_shot4",
+        "stream": false
+      }
+    ]
+  },
+  "turret_destroy": {
+    "sounds": [
+      {
+        "name": "gbg:turret/destroy",
+        "stream": false
+      }
+    ]
+  },
+  "turret_place": {
+    "sounds": [
+      {
+        "name": "gbg:turret/place",
+        "stream": false
+      }
+    ]
+  },
+  "auto_setup": {
+    "sounds": [
+      {
+        "name": "gbg:turret/auto_setup",
+        "stream": true
+      }
+    ]
+  },
+  "perdition_setup": {
+    "sounds": [
+      {
+        "name": "gbg:turret/perdition_setup",
+        "stream": true
+      }
+    ]
+  },
+  "gbg_duck_quack": {
+    "sounds": [
+      {
+        "name": "gbg:gbg_duck_quack",
+        "stream": false
+      }
+    ]
+  },
+  "bazooka_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/bazooka_fire",
+        "stream": false
+      }
+    ]
+  },
+  "flamethrower_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/flamethrower_reload",
+        "stream": true
+      }
+    ]
+  },
+  "minigun_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/minigun_fire",
+        "stream": false
+      }
+    ]
+  },
+  "uzi_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/uzi_fire",
+        "stream": false
+      }
+    ]
+  },
+  "uzi_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/uzi_reload",
+        "stream": true
+      }
+    ]
+  },
+  "lmg_fire": {
+    "sounds": [
+      {
+        "name": "gbg:gun/shoot/lmg_fire",
+        "stream": false
+      }
+    ]
+  },
+  "lmg_reload": {
+    "sounds": [
+      {
+        "name": "gbg:gun/reload/lmg_reload",
+        "stream": true
+      }
+    ]
+  },
+  "distant_explosion": {
+    "sounds": [
+      {
+        "name": "gbg:explosion/distant_explosion_1",
+        "stream": true
+      },
+      {
+        "name": "gbg:explosion/distant_explosion_2",
+        "stream": true
+      },
+      {
+        "name": "gbg:explosion/distant_explosion_3",
+        "stream": true
+      },
+      {
+        "name": "gbg:explosion/distant_explosion_4",
+        "stream": true
+      },
+      {
+        "name": "gbg:explosion/distant_explosion_5",
+        "stream": true
+      },
+      {
+        "name": "gbg:explosion/distant_explosion_6",
+        "stream": true
+      },
+      {
+        "name": "gbg:explosion/distant_explosion_7",
+        "stream": true
+      },
+      {
+        "name": "gbg:explosion/distant_explosion_8",
+        "stream": true
+      }
+    ]
+  }
+}

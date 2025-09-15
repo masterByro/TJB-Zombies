@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "gbg:item/gun/standard/flamethrower",
+    "display": {
+		"firstperson_righthand": {
+			"rotation": [0, -10, 0],
+			"translation": [0.75, 14.5, 5.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -10, 0],
+			"translation": [0.75, 14.5, 5.25]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/gun/springfield_m1a_zoom"
+	},
+    "oversized_in_gui": true
+}

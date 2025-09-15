@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/medical/regeneration_sryinge"
+	},
+    "oversized_in_gui": true
+}

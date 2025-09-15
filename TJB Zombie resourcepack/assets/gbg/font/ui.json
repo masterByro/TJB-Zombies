@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "gbg:item/ui/blank.png",
+            "height": 32,
+            "ascent": 14,
+            "chars": ["\u0041"]
+        }
+    ]
+}
