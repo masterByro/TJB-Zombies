@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/gun/ray/ray_gun_yellow_zoom"
+	},
+    "oversized_in_gui": true
+}

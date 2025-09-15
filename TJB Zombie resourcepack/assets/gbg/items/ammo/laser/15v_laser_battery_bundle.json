@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/ammo/laser/15v_laser_battery_bundle"
+	},
+    "oversized_in_gui": true
+}

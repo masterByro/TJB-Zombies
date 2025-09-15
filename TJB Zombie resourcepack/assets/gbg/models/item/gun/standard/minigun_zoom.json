@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "gbg:item/gun/standard/minigun",
+    "display": {
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-9, -8, -11.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [-9, -8, -11.5]
+		}
+	}
+}

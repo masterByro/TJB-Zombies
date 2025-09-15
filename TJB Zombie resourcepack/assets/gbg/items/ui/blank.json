@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "model",
+        "model": "gbg:item/ui/blank"
+    },
+    "oversized_in_gui": true
+}

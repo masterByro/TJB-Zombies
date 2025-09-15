@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/equipment/c4_remote"
+	},
+    "oversized_in_gui": true
+}

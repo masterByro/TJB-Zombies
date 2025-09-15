@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/gun/ak47_zoom"
+	},
+    "oversized_in_gui": true
+}

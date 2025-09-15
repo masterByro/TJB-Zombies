@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/medical/medkit"
+	},
+    "oversized_in_gui": true
+}

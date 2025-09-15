@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "model",
+        "model": "gbg:item/gun/standard/flamethrower_zoom"
+    },
+    "oversized_in_gui": true
+}

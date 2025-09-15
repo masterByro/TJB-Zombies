@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/gun/heckler_and_koch_mp5_zoom"
+	},
+    "oversized_in_gui": true
+}

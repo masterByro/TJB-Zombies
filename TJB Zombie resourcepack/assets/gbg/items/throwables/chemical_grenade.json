@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/throwables/chemical_grenade"
+	},
+    "oversized_in_gui": true
+}

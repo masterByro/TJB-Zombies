@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "gbg:item/gun/standard/bazooka",
+    "display": {
+		"firstperson_righthand": {
+			"rotation": [0, -10, 0],
+			"translation": [2.5, 3, 17.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -10, 0],
+			"translation": [2.5, 3, 17.5]
+		}
+	}
+}

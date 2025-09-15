@@ -1,0 +1,18 @@
+{
+    "death.attack.gbg.bullet_turret": "%1$s trespassed onto private property guarded by %2$s",
+    "death.attack.gbg.flame_turret": "%1$s is now a well-done steak because of %2$s",
+    "death.attack.gbg.bullet_standard": "%1$s ate lead from %2$s",
+    "death.attack.gbg.bullet_standard.item": "%1$s ate lead from %2$s's %3$s",
+    "death.attack.gbg.bullet_light": "%1$s was riddled with holes by %2$s",
+    "death.attack.gbg.bullet_light.item": "%1$s was riddled with holes by %2$s using %3$s",
+    "death.attack.gbg.bullet_heavy": "%1$s was blown away by %2$s",
+    "death.attack.gbg.bullet_heavy.item": "%1$s was blown away by %2$s's %3$s",
+    "death.attack.gbg.laser_standard": "%1$s was incinerated by %2$s",
+    "death.attack.gbg.laser_standard.item": "%1$s was incinerated by %2$s using %3$s",
+    "death.attack.gbg.laser_strong": "%1$s was completely disintegrated by %2$s",
+    "death.attack.gbg.laser_strong.item": "%1$s was completely disintegrated by %2$s's %3$s",
+    "death.attack.gbg.flame": "%1$s was torched by %2$s",
+    "death.attack.gbg.flame.item": "%1$s was torched by %2$s using %3$s",
+    "death.attack.gbg.ray": "%1$s was deleted by %2$s",
+    "death.attack.gbg.ray.item": "%1$s was deleted by %2$s using the %3$s"
+}

@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/gun/ray/ray_gun_red"
+	},
+    "oversized_in_gui": true
+}

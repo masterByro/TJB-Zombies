@@ -1,0 +1,48 @@
+{
+    "model": {
+        "type": "minecraft:composite",
+        "models": [
+            {
+                "type": "minecraft:model",
+                "model": "gbg:item/gun/standard/assault_rifle"
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                    "attatchments": {
+                        "shotgun": true
+                    }
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "gbg:item/gun/standard/shotgun"
+                },
+                "on_false": {
+                    "type": "minecraft:model",
+                    "model": "gbg:item/blank"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                    "attatchments": {
+                    "pistol": true
+                  }
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "gbg:item/gun/standard/pistol"
+                },
+                "on_false": {
+                    "type": "minecraft:model",
+                    "model": "gbg:item/blank"
+                }
+            }
+        ]
+    },
+    "oversized_in_gui": true
+}

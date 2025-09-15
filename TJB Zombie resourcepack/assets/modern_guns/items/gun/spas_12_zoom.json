@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/gun/spas_12_zoom"
+	},
+    "oversized_in_gui": true
+}

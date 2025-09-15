@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/gun/standard/bazooka"
+	},
+    "oversized_in_gui": true
+}

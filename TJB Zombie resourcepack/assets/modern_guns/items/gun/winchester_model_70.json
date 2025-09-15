@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "modern_guns:item/gun/winchester_model_70"
+	},
+    "oversized_in_gui": true
+}

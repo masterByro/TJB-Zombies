@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "gbg:item/gun_ammo/standard2",
+		"particle": "gbg:item/gun_ammo/standard2"
+	},
+	"elements": [
+		{
+			"from": [8.5, 0, 6.5],
+			"to": [10.5, 6, 8.5],
+			"faces": {
+				"north": {"uv": [14, 10, 16, 16], "texture": "#0"},
+				"east": {"uv": [14, 10, 16, 16], "texture": "#0"},
+				"south": {"uv": [14, 10, 16, 16], "texture": "#0"},
+				"west": {"uv": [14, 10, 16, 16], "texture": "#0"},
+				"up": {"uv": [14, 10, 16, 12], "texture": "#0"},
+				"down": {"uv": [14, 14, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.75, 3.25, 0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.75, 3.25, 0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"translation": [3.5, 6, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [6.25, 6, 0]
+		},
+		"ground": {
+			"translation": [-1, 1.75, 0.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [22, -34, 0],
+			"translation": [-1.75, 5, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [-2, 5.5, 1],
+			"scale": [1.1, 1.1, 1.1]
+		}
+	}
+}

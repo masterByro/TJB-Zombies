@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "model",
+		"model": "gbg:item/gun/laser/laser_rifle_zoom"
+	},
+    "oversized_in_gui": true
+}
