@@ -1,0 +1,120 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Auto Turret",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "HP: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "60",
+                                            "color": "dark_red",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Armor: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "8",
+                                            "color": "dark_green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Damage: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "3",
+                                            "color": "red",
+                                            "italic": false,
+                                            "underlined": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Range: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "24 blocks",
+                                            "color": "green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Rate of Fire: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "14 ticks",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Effects: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "None",
+                                            "color": "dark_aqua",
+                                            "italic": false
+                                        }
+                                    ]
+                                ],
+                                "item_model": "gbg:turret/auto/functional/full",
+                                "minecraft:max_stack_size": 4,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "auto_placer",
+                                        "placer"
+                                    ],
+                                    "Item": {
+                                        "count": 1,
+                                        "id": "minecraft:item_frame",
+                                        "components": {
+                                            "item_model": "gbg:turret/auto/functional/full"
+                                        }
+                                    },
+                                    "Fixed": true,
+                                    "Invisible": true,
+                                    "Silent": true,
+                                    "Invulnerable": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

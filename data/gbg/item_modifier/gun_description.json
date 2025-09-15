@@ -1,0 +1,253 @@
+[
+    {
+        "function": "minecraft:set_damage",
+        "damage": {
+            "type": "minecraft:storage",
+            "storage": "gbg:stats",
+            "path": "tag.new_durability"
+        }
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:stats"
+        },
+        "ops": [
+            {
+                "source": "tag.current_ammo",
+                "target": "gbg.current_ammo",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [],
+        "mode": "replace_all"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "nbt": "SelectedItem.components.minecraft:custom_data.gbg.above_text",
+                "entity": "@s",
+                "interpret": true
+            }
+        ],
+        "mode": "append",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "gbg": {
+                                        "has_above_text": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "Ammo: ",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "gbg.current_ammo",
+                        "objective": "gbg.temp"
+                    },
+                    "color": "gold",
+                    "italic": false
+                },
+                {
+                    "text": "/",
+                    "color": "gold",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "gbg.max_ammo",
+                        "objective": "gbg.temp"
+                    },
+                    "color": "gold",
+                    "italic": false
+                }
+            ]
+        ],
+        "mode": "append",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {}
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "Damage: ",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "gbg.damage",
+                        "objective": "gbg.temp"
+                    },
+                    "color": "red",
+                    "italic": false
+                }
+            ]
+        ],
+        "mode": "append"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "Range: ",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "gbg.range",
+                        "objective": "gbg.temp"
+                    },
+                    "color": "green",
+                    "italic": false
+                },
+                {
+                    "text": " blocks",
+                    "color": "green",
+                    "italic": false
+                }
+            ]
+        ],
+        "mode": "append"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "Rate of Fire: ",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "gbg.fire_rate",
+                        "objective": "gbg.temp"
+                    },
+                    "color": "yellow",
+                    "italic": false
+                },
+                {
+                    "text": " ticks",
+                    "color": "yellow",
+                    "italic": false
+                }
+            ]
+        ],
+        "mode": "append"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "Ammunition: ",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "nbt": "SelectedItem.components.minecraft:custom_data.gbg.ammo_item_tag",
+                    "entity": "@s",
+                    "color": "#0098ff",
+                    "italic": false
+                }
+            ]
+        ],
+        "mode": "append"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "Reload Speed: ",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "gbg.reload_speed",
+                        "objective": "gbg.temp"
+                    },
+                    "color": "#2dfcff",
+                    "italic": false
+                },
+                {
+                    "text": " ticks",
+                    "color": "#2dfcff",
+                    "italic": false
+                }
+            ]
+        ],
+        "mode": "append"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "Recoil Strength: ",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "gbg.recoil_strength",
+                        "objective": "gbg.temp"
+                    },
+                    "color": "#bf46ff",
+                    "italic": false
+                },
+                {
+                    "text": "/14",
+                    "color": "#bf46ff",
+                    "italic": false
+                }
+            ]
+        ],
+        "mode": "append"
+    }
+]

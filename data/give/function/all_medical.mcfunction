@@ -1,0 +1,10 @@
+loot give @s loot gbg:items/medical/simple_bandage
+loot give @s loot gbg:items/medical/adv_bandage
+loot give @s loot gbg:items/medical/medkit
+loot give @s loot gbg:items/medical/regeneration_syringe
+loot give @s loot gbg:items/medical/absorption_syringe
+loot give @s loot gbg:items/medical/resistance_syringe
+loot give @s loot gbg:items/medical/swiftness_syringe
+loot give @s loot gbg:items/medical/health_boost_syringe
+loot give @s loot gbg:items/medical/antidote_syringe
+loot give @s loot gbg:items/medical/laser_shield

@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Revolver Bullets",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Used by ",
+                                            "italic": true,
+                                            "color": "gray"
+                                        },
+                                        {
+                                            "text": "Revolvers",
+                                            "italic": false,
+                                            "color": "white"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Modern Guns Ammunition",
+                                            "italic": true,
+                                            "color": "dark_gray"
+                                        }
+                                    ]
+                                ],
+                                "minecraft:item_model": "modern_guns:ammo/revolver_bullets",
+                                "minecraft:custom_data": {
+                                    "revolver_bullets": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

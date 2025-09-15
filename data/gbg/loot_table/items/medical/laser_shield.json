@@ -1,0 +1,83 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_strad",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Laser Shield",
+                                    "italic": false,
+                                    "color": "red"
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Effects: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "Health Boost V (20:00)",
+                                            "color": "dark_aqua"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "           ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "Regeneration V (00:05)",
+                                            "color": "dark_aqua"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Use Time: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "10 ticks",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ]
+                                ],
+                                "item_model": "gbg:medical/laser_shield",
+                                "minecraft:max_stack_size": 1,
+                                "custom_data": {
+                                    "gbg": {
+                                        "is_medical_item": 1,
+                                        "use_time": 10,
+                                        "effect_type": 10,
+                                        "sound": "gbg:laser_shield",
+                                        "sound_time": 9
+                                    }
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1000000,
+                                    "animation": "none",
+                                    "has_consume_particles": false
+                                },
+                                "!jukebox_playable": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 48,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "DSR 50 magazine",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                "item_model": "gbg:ammo/standard/sniper_rifle_magazine",
+                                "minecraft:custom_data": {
+                                    "dsr_50_magazine": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

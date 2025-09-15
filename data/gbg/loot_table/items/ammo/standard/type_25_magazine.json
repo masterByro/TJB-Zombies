@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 8,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Type 25 Magazine",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                "item_model": "gbg:ammo/standard/pistol_magazine",
+                                "minecraft:custom_data": {
+                                    "type_25_magazine": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

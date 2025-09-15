@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Rocket",
+                                    "italic": false,
+                                    "color": "yellow"
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Used in the ",
+                                            "color": "gray"
+                                        },
+                                        {
+                                            "text": "Bazooka",
+                                            "color": "yellow"
+                                        }
+                                    ]
+                                ],
+                                "item_model": "gbg:ammo/standard/rocket",
+                                "minecraft:custom_data": {
+                                    "gbg_rocket": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

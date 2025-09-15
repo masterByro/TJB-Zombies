@@ -1,0 +1,1 @@
+loot give @s loot  gbg:items/gun/modern/barrett_m82

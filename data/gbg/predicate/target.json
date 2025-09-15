@@ -1,0 +1,23 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "#gbg:not_not_mob",
+      "distance": {
+        "x": {
+          "min": 0,
+          "max": 100
+        },
+        "y": {
+          "min": 0,
+          "max": 100
+        },
+        "z": {
+          "min": 0,
+          "max": 100
+        },
+        "absolute": 0
+      }
+    }
+  }
+  

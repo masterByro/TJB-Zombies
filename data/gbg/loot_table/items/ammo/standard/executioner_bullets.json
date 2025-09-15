@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 84,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Executioner Bullets",
+                                    "italic": false,
+                                    "color": "white"
+                                },                             
+                                "minecraft:item_model": "modern_guns:ammo/revolver_bullets",
+                                "minecraft:custom_data": {
+                                    "executioner_bullets": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 20,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "RPG Rocket",
+                                    "italic": false,
+                                    "color": "yellow"
+                                },
+                                "item_model": "gbg:ammo/standard/rocket",
+                                "minecraft:custom_data": {
+                                    "rpg_rocket": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

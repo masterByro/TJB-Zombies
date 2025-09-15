@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Welcome to Gamingbarn's Guns!",
+    "type": "text",
+    "color": "gold",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Gamingbarn's Guns requires a resource pack to work properly."
+      },
+      "width": 360
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "To verirfy that the resource pack is loaded, look at the image below."
+      },
+      "width": 400
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:crossbow",
+        "components": {
+          "minecraft:item_model": "gbg:ui/resource_verify_picture",
+          "tooltip_display": {
+            "hide_tooltip": true
+          }
+        }
+      },
+      "width": 64,
+      "height": 80
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Do you see the Minigun?",
+        "italic": true
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "text": "Yes",
+        "color": "green"
+      },
+      "width": 59
+    },
+    {
+      "label": {
+        "text": "No",
+        "color": "red"
+      },
+      "width": 59,
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://modrinth.com/datapack/gamingbarns-guns/versions?l=datapack"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 18,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "War Machine Rounds",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                "minecraft:item_model": "modern_guns:ammo/explosive_rounds",
+                                "minecraft:custom_data": {
+                                    "war_machine_rounds": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

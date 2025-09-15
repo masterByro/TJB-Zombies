@@ -1,0 +1,1 @@
+loot give @s loot gbg:items/medical/minor_infection_cure

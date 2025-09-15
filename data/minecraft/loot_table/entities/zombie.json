@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "weight": 1,
+          "quality": 1,
+          "functions": [],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_candle",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 1,
+          "quality": 1
+        }
+      ],
+      "functions": [],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.001
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"canDrop\"]}"
+          
+          }
+        }
+      ]
+    }
+  ]
+}

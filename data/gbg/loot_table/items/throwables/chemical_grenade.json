@@ -1,0 +1,117 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_stal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Chemical Grenade",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Damage: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "2",
+                                            "color": "red",
+                                            "italic": false,
+                                            "underlined": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Fuse Time: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "100 ticks",
+                                            "color": "yellow",
+                                            "italic": false,
+                                            "underlined": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Effects: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "Wither II (00:12)",
+                                            "color": "dark_aqua"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "           ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "Slowness II (00:12)",
+                                            "color": "dark_aqua"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "           ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "Weakness II (00:12)",
+                                            "color": "dark_aqua"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "           ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "Mining Fatigue II (00:12)",
+                                            "color": "dark_aqua"
+                                        }
+                                    ]
+                                ],
+                                "item_model": "gbg:throwables/chemical_grenade",
+                                "minecraft:custom_data": {
+                                    "gbg": {
+                                        "is_throwable": 1,
+                                        "throwable_life": 100,
+                                        "impact_type": 4,
+                                        "explode_on_impact": 0
+                                    }
+                                },
+                                "minecraft:max_stack_size": 16,
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1000000,
+                                    "animation": "none",
+                                    "has_consume_particles": false
+                                },
+                                "!jukebox_playable": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

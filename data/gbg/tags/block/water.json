@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:water",
+        "minecraft:bubble_column",
+        "minecraft:kelp",
+        "minecraft:kelp_plant",
+        "minecraft:seagrass",
+        "minecraft:tall_seagrass",
+        "minecraft:brain_coral_fan",
+        "minecraft:bubble_coral_fan",
+        "minecraft:fire_coral_fan",
+        "minecraft:horn_coral_fan",
+        "minecraft:tube_coral_fan",
+        "#minecraft:coral_plants"
+    ]
+}

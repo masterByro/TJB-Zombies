@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 9,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Galil Magazine",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                "item_model": "gbg:ammo/standard/assault_rifle_magazine",
+                                "minecraft:custom_data": {
+                                    "galil_magazine": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

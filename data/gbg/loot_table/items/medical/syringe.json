@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "italic": false,
+                  "text": "Syringe"
+                },
+                "minecraft:rarity": "common",
+                "item_model": "gbg:medical/syringe"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

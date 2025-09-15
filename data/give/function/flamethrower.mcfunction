@@ -1,0 +1,1 @@
+loot give @s loot gbg:items/gun/standard/flamethrower

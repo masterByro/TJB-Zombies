@@ -1,0 +1,183 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Ray Gun",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                "minecraft:custom_name": {
+                                    "text": "Ray Gun",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Ammo:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 20/20",
+                                            "color": "gold",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Damage:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 30",
+                                            "color": "red",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Range:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 30 blocks",
+                                            "color": "green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Rate of Fire:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 7 ticks",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Reload Speed:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 50 ticks",
+                                            "color": "#2dfcff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Recoil Strength:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 1/14",
+                                            "color": "#bf46ff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Press ",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        },
+                                        {
+                                            "keybind": "key.swapOffhand",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to reload",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to shoot",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ]
+                                ],
+                                "minecraft:item_model": "gbg:gun/ray/ray_gun_base",
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 200,
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "gbg_is_gun": 1,
+                                    "gbg": {
+                                        "headshot_damage": 45,
+                                        "gun_version": 3,
+                                        "damage": 30,
+                                        "range": 30,
+                                        "fire_rate": 7,
+                                        "projectile_type": 20,
+                                        "projectile_speed": 0,
+                                        "damage_type": 7,
+                                        "zoom_strength": 1,
+                                        "disable_zoom_bobbing": false,
+                                        "recoil_strength": 0,
+                                        "zoom_recoil_strength": 0,
+                                        "max_ammo": 20,
+                                        "current_ammo": 20,
+                                        "reload_speed": 50,
+                                        "quick_reload_speed": 25,
+                                        "reload_type": 1,
+                                        "ammo_base": "chain_command_block",
+                                        "ammo_item_tag": "ray_gun_battery",
+                                        "shoot_sound": "gbg:ray_gun_fire",
+                                        "reload_sound": "gbg:ray_gun_reload",
+                                        "idle_model": "gbg:gun/ray/ray_gun_base",
+                                        "zoom_model": "gbg:gun/ray/ray_gun_base_zoom"
+                                    }
+                                },
+                                "minecraft:enchantments": {
+                                    "gbg:shoot_gun": 1
+                                },
+                                "minecraft:enchantment_glint_override": false,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:charged_projectiles"
+                                    ]
+                                },
+                                "minecraft:charged_projectiles": [
+                                    {
+                                        "id": "minecraft:dirt",
+                                        "components": {
+                                            "minecraft:item_name": "GBG Projectile"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

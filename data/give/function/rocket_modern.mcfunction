@@ -1,0 +1,1 @@
+loot give @s loot modern_guns:ammo/rocket

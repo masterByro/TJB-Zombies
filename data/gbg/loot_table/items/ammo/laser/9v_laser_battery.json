@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "9V Laser Battery",
+                                    "italic": false,
+                                    "color": "red"
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Used in the ",
+                                            "color": "gray"
+                                        },
+                                        {
+                                            "text": "Laser Pistol",
+                                            "color": "red"
+                                        }
+                                    ]
+                                ],
+                                "item_model": "gbg:ammo/laser/9v_laser_battery",
+                                "minecraft:custom_data": {
+                                    "gbg_9v_laser_battery": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

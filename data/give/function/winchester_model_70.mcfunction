@@ -1,0 +1,1 @@
+loot give @s loot  gbg:items/gun/modern/winchester_model_70

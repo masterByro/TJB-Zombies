@@ -1,0 +1,66 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "text": "C4"
+                                },
+                                "can_place_on": {}, 
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "color": "gray",
+                                            "italic": false,
+                                            "text": "Damage: "
+                                        },
+                                        {
+                                            "color": "red",
+                                            "italic": false,
+                                            "text": "43"
+                                        }
+                                    ],
+                                    {
+                                        "color": "dark_aqua",
+                                        "italic": true,
+                                        "text": "Explodes via Remote"
+                                    }
+                                ],
+                                "item_model": "gbg:equipment/c4",
+                                "minecraft:custom_data": {
+                                    "c4": 1
+                                },
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "c4"
+                                    ],
+                                    "Item": {
+                                        "count": 1,
+                                        "id": "minecraft:item_frame",
+                                        "components": {
+                                            "item_model": "gbg:equipment/c4"
+                                        }
+                                    },
+                                    "Fixed": true,
+                                    "Invisible": true,
+                                    "Silent": true,
+                                    "Invulnerable": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

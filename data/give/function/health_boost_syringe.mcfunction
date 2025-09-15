@@ -1,0 +1,1 @@
+loot give @s loot gbg:items/medical/health_boost_syringe

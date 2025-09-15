@@ -1,0 +1,1 @@
+loot give @s loot gbg:items/gun/laser/assault_laser_rifle

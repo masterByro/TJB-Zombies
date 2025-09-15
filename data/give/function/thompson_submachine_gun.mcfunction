@@ -1,0 +1,1 @@
+loot give @s loot  gbg:items/gun/modern/thompson_submachine_gun

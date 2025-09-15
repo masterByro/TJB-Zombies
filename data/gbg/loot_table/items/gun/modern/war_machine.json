@@ -1,0 +1,200 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "text": "War Machine",
+                                    "color": "#5B96F8",
+                                    "italic": false
+                                },
+                                "minecraft:item_name": {
+                                    "text": "War Machine",
+                                    "color": "#5B96F8",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Ammo:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 6/6",
+                                            "color": "gold",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Damage:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 43",
+                                            "color": "red",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Range:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 170",
+                                            "color": "green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Rate of Fire:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 10 ticks",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ],                                
+                                    [
+                                        {
+                                            "text": "Reload Speed:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 20 ticks",
+                                            "color": "#2dfcff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Recoil Strength:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 5/14",
+                                            "color": "#bf46ff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Press ",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        },
+                                        {
+                                            "keybind": "key.swapOffhand",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to reload",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to shoot",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ]
+                                ],
+                                "minecraft:item_model": "modern_guns:gun/milkor_mgl",
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 200,
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "gbg_is_gun": 1,
+                                    "gbg": {
+                                        "headshot_damage": 5,
+                                        "gun_version": 3,
+                                        "damage": 3,
+                                        "range": 170,
+                                        "fire_rate": 10,
+                                        "projectile_type": 101,
+                                        "projectile_speed": 10,
+                                        "damage_type": 8,
+                                        "zoom_strength": 7,
+                                        "disable_zoom_bobbing": false,
+                                        "recoil_strength": 5,
+                                        "zoom_recoil_strength": 2,
+                                        "max_ammo": 6,
+                                        "current_ammo": 6,
+                                        "reload_speed": 20,
+                                        "quick_reload_speed": 10,
+                                        "reload_type": 2,
+                                        "ammo_base": "command_block",
+                                        "ammo_item_tag": "war_machine_rounds",
+                                        "shoot_sound": "modern_guns:grenade_launcher_fire",
+                                        "reload_sound": "modern_guns:grenade_launcher_reload",
+                                        "idle_model": "modern_guns:gun/milkor_mgl",
+                                        "zoom_model": "modern_guns:gun/milkor_mgl_zoom"
+                                    }
+                                },
+                                "minecraft:enchantments": {
+                                    "gbg:shoot_gun": 1
+                                },
+                                "minecraft:enchantment_glint_override": false,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:attribute_modifiers",
+                                        "minecraft:charged_projectiles"
+                                    ]
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:block_interaction_range",
+                                        "id": "gbg:interaction_range_limiter",
+                                        "amount": -100,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "type": "minecraft:entity_interaction_range",
+                                        "id": "gbg:interaction_range_limiter",
+                                        "amount": -100,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    }
+                                ],
+                                "minecraft:charged_projectiles": [
+                                    {
+                                        "id": "minecraft:dirt",
+                                        "components": {
+                                            "minecraft:item_name": "GBG Projectile"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

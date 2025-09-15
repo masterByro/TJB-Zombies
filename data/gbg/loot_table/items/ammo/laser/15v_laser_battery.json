@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chain_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "15V Laser Battery",
+                                    "italic": false,
+                                    "color": "red"
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Used in the ",
+                                            "color": "gray"
+                                        },
+                                        {
+                                            "text": "Laser Rifle",
+                                            "color": "red"
+                                        },
+                                        {
+                                            "text": " and ",
+                                            "color": "gray"
+                                        },
+                                        {
+                                            "text": "Assault Laser Rifle",
+                                            "color": "red"
+                                        }
+                                    ]
+                                ],
+                                "minecraft:custom_data": {
+                                    "gbg_15v_laser_battery": 1
+                                },
+                                "item_model": "gbg:ammo/laser/15v_laser_battery"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

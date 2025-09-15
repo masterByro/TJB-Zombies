@@ -1,0 +1,183 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Assault Laser Rifle",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                "minecraft:custom_name": {
+                                    "text": "Assault Laser Rifle",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Ammo:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 48/48",
+                                            "color": "gold",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Damage:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 5",
+                                            "color": "red",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Range:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 74 blocks",
+                                            "color": "green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Rate of Fire:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 4 ticks",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Reload Speed:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 35 ticks",
+                                            "color": "#2dfcff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Recoil Strength:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 3/14",
+                                            "color": "#bf46ff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Press ",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        },
+                                        {
+                                            "keybind": "key.swapOffhand",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to reload",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to shoot",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ]
+                                ],
+                                "minecraft:item_model": "gbg:gun/laser/assault_laser_rifle",
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 200,
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "gbg_is_gun": 1,
+                                    "gbg": {
+                                        "headshot_damage": 8,
+                                        "gun_version": 3,
+                                        "damage": 5,
+                                        "range": 74,
+                                        "fire_rate": 4,
+                                        "projectile_type": 4,
+                                        "projectile_speed": 0,
+                                        "damage_type": 4,
+                                        "zoom_strength": 6,
+                                        "disable_zoom_bobbing": true,
+                                        "recoil_strength": 4,
+                                        "zoom_recoil_strength": 2,
+                                        "max_ammo": 48,
+                                        "current_ammo": 48,
+                                        "reload_speed": 35,
+                                        "reload_type": 4,
+                                        "ammo_base": "chain_command_block",
+                                        "ammo_item_tag": "gbg_15v_laser_battery",
+                                        "shoot_sound": "gbg:laser_rifle_fire",
+                                        "shoot_sound_pitch": 1.3,
+                                        "reload_sound": "gbg:laser_pistol_reload",
+                                        "idle_model": "gbg:gun/laser/assault_laser_rifle",
+                                        "zoom_model": "gbg:gun/laser/assault_laser_rifle_zoom"
+                                    }
+                                },
+                                "minecraft:enchantments": {
+                                    "gbg:shoot_gun": 1
+                                },
+                                "minecraft:enchantment_glint_override": false,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:charged_projectiles"
+                                    ]
+                                },
+                                "minecraft:charged_projectiles": [
+                                    {
+                                        "id": "minecraft:dirt",
+                                        "components": {
+                                            "minecraft:item_name": "GBG Projectile"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

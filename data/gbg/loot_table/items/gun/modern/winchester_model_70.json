@@ -1,0 +1,200 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "text": "Winchester Model 70",
+                                    "color": "#F2EF55",
+                                    "italic": false
+                                },
+                                "minecraft:item_name": {
+                                    "text": "Winchester Model 70",
+                                    "color": "#F2EF55",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Ammo:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 5/5",
+                                            "color": "gold",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Damage:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 19",
+                                            "color": "red",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Range:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 98",
+                                            "color": "green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Rate of Fire:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 24 ticks",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Reload Speed:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 60 ticks",
+                                            "color": "#2dfcff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Recoil Strength:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 7/14",
+                                            "color": "#bf46ff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Press ",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        },
+                                        {
+                                            "keybind": "key.swapOffhand",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to reload",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to shoot",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ]
+                                ],
+                                "minecraft:item_model": "modern_guns:gun/winchester_model_70",
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 200,
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "gbg_is_gun": 1,
+                                    "gbg": {
+                                        "headshot_damage": 30,
+                                        "gun_version": 3,
+                                        "damage": 19,
+                                        "range": 98,
+                                        "fire_rate": 24,
+                                        "projectile_type": 1,
+                                        "projectile_speed": 1,
+                                        "damage_type": 3,
+                                        "zoom_strength": 6,
+                                        "disable_zoom_bobbing": false,
+                                        "recoil_strength": 7,
+                                        "zoom_recoil_strength": 5,
+                                        "max_ammo": 5,
+                                        "current_ammo": 5,
+                                        "reload_speed": 60,
+                                        "quick_reload_speed": 30,
+                                        "reload_type": 1,
+                                        "ammo_base": "command_block",
+                                        "ammo_item_tag": "sniper_rifle_magazine",
+                                        "shoot_sound": "modern_guns:winchester_model_70_fire",
+                                        "reload_sound": "modern_guns:winchester_model_70_reload",
+                                        "idle_model": "modern_guns:gun/winchester_model_70",
+                                        "zoom_model": "modern_guns:gun/winchester_model_70_zoom"
+                                    }
+                                },
+                                "minecraft:enchantments": {
+                                    "gbg:shoot_gun": 1
+                                },
+                                "minecraft:enchantment_glint_override": false,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:attribute_modifiers",
+                                        "minecraft:charged_projectiles"
+                                    ]
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:block_interaction_range",
+                                        "id": "gbg:interaction_range_limiter",
+                                        "amount": -100,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "type": "minecraft:entity_interaction_range",
+                                        "id": "gbg:interaction_range_limiter",
+                                        "amount": -100,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    }
+                                ],
+                                "minecraft:charged_projectiles": [
+                                    {
+                                        "id": "minecraft:dirt",
+                                        "components": {
+                                            "minecraft:item_name": "GBG Projectile"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

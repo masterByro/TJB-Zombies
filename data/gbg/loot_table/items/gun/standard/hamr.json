@@ -1,0 +1,176 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_chirp",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "HAMR",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                "minecraft:custom_name": {
+                                    "text": "HAMR",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Ammo:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 125/125",
+                                            "color": "gold",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Damage:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 5",
+                                            "color": "red",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Range:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 36 blocks",
+                                            "color": "green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Rate of Fire:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 2 ticks",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Reload Speed:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 70 ticks",
+                                            "color": "#2dfcff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Recoil Strength:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 3/14",
+                                            "color": "#bf46ff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Press ",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        },
+                                        {
+                                            "keybind": "key.swapOffhand",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to reload",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to shoot",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ]
+                                ],
+                                "minecraft:item_model": "gbg:gun/standard/minigun",
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 200,
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "gbg_is_gun": 1,
+                                    "gbg": {
+                                        "headshot_damage": 8,
+                                        "gun_version": 3,
+                                        "damage": 5,
+                                        "range": 36,
+                                        "fire_rate": 1,
+                                        "projectile_type": 2,
+                                        "projectile_speed": 0,
+                                        "damage_type": 2,
+                                        "zoom_strength": 2,
+                                        "disable_zoom_bobbing": false,
+                                        "recoil_strength": 3,
+                                        "zoom_recoil_strength": 3,
+                                        "max_ammo": 125,
+                                        "current_ammo": 125,
+                                        "reload_speed": 70,
+                                        "quick_reload_speed": 35,
+                                        "reload_type": 1,
+                                        "ammo_base": "command_block",
+                                        "ammo_item_tag": "hamr_canister",
+                                        "shoot_sound": "gbg:minigun_fire",
+                                        "reload_sound": "gbg:laser_cannon_reload",
+                                        "idle_model": "gbg:gun/standard/minigun",
+                                        "zoom_model": "gbg:gun/standard/minigun_zoom"
+                                    }
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1000000,
+                                    "animation": "none",
+                                    "has_consume_particles": false
+                                },
+                                "!jukebox_playable": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,310 @@
+[
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "next_shoot_type",
+                "target": "gbg.current_shoot_type",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "damage",
+                "target": "gbg.damage",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "range",
+                "target": "gbg.range",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "fire_rate",
+                "target": "gbg.fire_rate",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "projectile_type",
+                "target": "gbg.projectile_type",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "projectile_speed",
+                "target": "gbg.projectile_speed",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "damage_type",
+                "target": "gbg.damage_type",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "zoom_strength",
+                "target": "gbg.zoom_strength",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "disable_zoom_bobbing",
+                "target": "gbg.disable_zoom_bobbing",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "recoil_strength",
+                "target": "gbg.recoil_strength",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "zoom_recoil_strength",
+                "target": "gbg.zoom_recoil_strength",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "max_ammo",
+                "target": "gbg.max_ammo",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "current_ammo",
+                "target": "gbg.current_ammo",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "reload_speed",
+                "target": "gbg.reload_speed",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "reload_type",
+                "target": "gbg.reload_type",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "ammo_base",
+                "target": "gbg.ammo_base",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "ammo_item_tag",
+                "target": "gbg.ammo_item_tag",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "shoot_sound",
+                "target": "gbg.shoot_sound",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "reload_sound",
+                "target": "gbg.reload_sound",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "idle_model",
+                "target": "gbg.idle_model",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "zoom_model",
+                "target": "gbg.zoom_model",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gbg:shoot_types"
+        },
+        "ops": [
+            {
+                "source": "above_text",
+                "target": "gbg.above_text",
+                "op": "replace"
+            }
+        ]
+    }
+]

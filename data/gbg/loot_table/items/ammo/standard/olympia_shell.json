@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 38,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Olympia Shell",
+                                    "italic": false,
+                                    "color": "white"
+                                },                         
+                                "item_model": "gbg:ammo/standard/shotgun_shell",
+                                "minecraft:custom_data": {
+                                    "olympia_shell": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

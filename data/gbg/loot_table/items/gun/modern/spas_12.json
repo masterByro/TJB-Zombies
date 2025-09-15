@@ -1,0 +1,200 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "text": "Spas 12",
+                                    "color": "#5B96F8",
+                                    "italic": false
+                                },
+                                "minecraft:item_name": {
+                                    "text": "Spas 12",
+                                    "color": "#5B96F8",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Ammo:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 10/10",
+                                            "color": "gold",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Damage:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 30",
+                                            "color": "red",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Range:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 64",
+                                            "color": "green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Rate of Fire:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 16 ticks",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Reload Speed:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 15 ticks",
+                                            "color": "#2dfcff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Recoil Strength:",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " 7/14",
+                                            "color": "#bf46ff",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Press ",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        },
+                                        {
+                                            "keybind": "key.swapOffhand",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to reload",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "dark_red",
+                                            "italic": true
+                                        },
+                                        {
+                                            "text": " to shoot",
+                                            "color": "dark_gray",
+                                            "italic": true
+                                        }
+                                    ]
+                                ],
+                                "minecraft:item_model": "modern_guns:gun/spas_12",
+                                "minecraft:damage": 0,
+                                "minecraft:max_damage": 200,
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "gbg_is_gun": 1,
+                                    "gbg": {
+                                        "headshot_damage": 45,
+                                        "gun_version": 3,
+                                        "damage": 30,
+                                        "range": 64,
+                                        "fire_rate": 16,
+                                        "projectile_type": 3,
+                                        "projectile_speed": 1,
+                                        "damage_type": 2,
+                                        "zoom_strength": 4,
+                                        "disable_zoom_bobbing": false,
+                                        "recoil_strength": 7,
+                                        "zoom_recoil_strength": 4,
+                                        "max_ammo": 10,
+                                        "current_ammo": 10,
+                                        "reload_speed": 15,
+                                        "quick_reload_speed": 8,
+                                        "reload_type": 2,
+                                        "ammo_base": "command_block",
+                                        "ammo_item_tag": "spas_12_shell",
+                                        "shoot_sound": "modern_guns:spas_12_fire",
+                                        "reload_sound": "modern_guns:spas_12_reload",
+                                        "idle_model": "modern_guns:gun/spas_12",
+                                        "zoom_model": "modern_guns:gun/spas_12_zoom"
+                                    }
+                                },
+                                "minecraft:enchantments": {
+                                    "gbg:shoot_gun": 1
+                                },
+                                "minecraft:enchantment_glint_override": false,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:attribute_modifiers",
+                                        "minecraft:charged_projectiles"
+                                    ]
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:block_interaction_range",
+                                        "id": "gbg:interaction_range_limiter",
+                                        "amount": -100,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "type": "minecraft:entity_interaction_range",
+                                        "id": "gbg:interaction_range_limiter",
+                                        "amount": -100,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    }
+                                ],
+                                "minecraft:charged_projectiles": [
+                                    {
+                                        "id": "minecraft:dirt",
+                                        "components": {
+                                            "minecraft:item_name": "GBG Projectile"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

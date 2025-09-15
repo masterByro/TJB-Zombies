@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Flamethrower Canister",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Used in the ",
+                                            "color": "gray"
+                                        },
+                                        {
+                                            "text": "Flamethrower",
+                                            "color": "white"
+                                        }
+                                    ]
+                                ],
+                                "item_model": "gbg:ammo/standard/flamethrower_canister",
+                                "minecraft:custom_data": {
+                                    "gbg_flamethrower_canister": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

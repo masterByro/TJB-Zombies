@@ -1,0 +1,1 @@
+loot give @s loot gbg:items/medical/antidote_syringe

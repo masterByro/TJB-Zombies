@@ -1,0 +1,66 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "text": "Land Mine"
+                                },
+                                "can_place_on": {}, 
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "color": "gray",
+                                            "italic": false,
+                                            "text": "Damage: "
+                                        },
+                                        {
+                                            "color": "red",
+                                            "italic": false,
+                                            "text": "43"
+                                        }
+                                    ],
+                                    {
+                                        "color": "dark_aqua",
+                                        "italic": true,
+                                        "text": "Explodes on Contact"
+                                    }
+                                ],
+                                "item_model": "gbg:equipment/land_mine",
+                                "minecraft:custom_data": {
+                                    "land_mine": 1
+                                },
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "land_mine"
+                                    ],
+                                    "Item": {
+                                        "count": 1,
+                                        "id": "minecraft:item_frame",
+                                        "components": {
+                                            "item_model": "gbg:equipment/land_mine"
+                                        }
+                                    },
+                                    "Fixed": true,
+                                    "Invisible": true,
+                                    "Silent": true,
+                                    "Invulnerable": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

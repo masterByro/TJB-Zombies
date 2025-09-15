@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 30,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Shotgun Shell",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                "item_model": "gbg:ammo/standard/shotgun_shell",
+                                "minecraft:custom_data": {
+                                    "spas_12_shell": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

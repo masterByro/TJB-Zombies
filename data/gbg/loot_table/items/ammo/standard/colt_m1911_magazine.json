@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Colt M1911 Magazine",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Used in the ",
+                                            "color": "gray"
+                                        },
+                                        {
+                                            "text": "Colt M1911",
+                                            "color": "white"
+                                        }
+                                    ]
+                                ],
+                                "item_model": "gbg:ammo/standard/pistol_magazine",
+                                "minecraft:custom_data": {
+                                    "colt_m1911_magazine": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

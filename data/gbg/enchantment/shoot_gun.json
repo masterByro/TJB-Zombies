@@ -1,0 +1,36 @@
+{
+    "description": "GBG: Used for crossbow-based right-click detection !DO NOT USE!",
+    "exclusive_set": [
+        "minecraft:quick_charge",
+        "minecraft:multishot",
+        "minecraft:piercing",
+        "minecraft:unbreaking",
+        "minecraft:mending",
+        "minecraft:vanishing_curse"
+    ],
+    "supported_items": [
+        "minecraft:crossbow"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [],
+    "effects": {
+        "minecraft:projectile_spawned": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "gbg:gun/crossbow_shoot"
+                }
+            }
+        ]
+    }
+}

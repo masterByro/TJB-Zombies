@@ -1,0 +1,1 @@
+loot give @s loot gbg:items/ammo/laser/15v_laser_battery

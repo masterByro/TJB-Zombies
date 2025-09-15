@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 8,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chain_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Ray Gun Battery",
+                                    "italic": false,
+                                    "color": "red"
+                                },
+                                "minecraft:custom_data": {
+                                    "ray_gun_battery": 1
+                                },
+                                "item_model": "gbg:ammo/laser/15v_laser_battery"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

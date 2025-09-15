@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "HAMR Canister",
+                                    "italic": false,
+                                    "color": "yellow"
+                                },
+                                "item_model": "gbg:ammo/standard/minigun_canister",
+                                "minecraft:custom_data": {
+                                    "hamr_canister": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

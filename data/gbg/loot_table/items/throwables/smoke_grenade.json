@@ -1,0 +1,95 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_stal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Smoke Grenade",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        {
+                                            "text": "Damage: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "0",
+                                            "color": "red",
+                                            "italic": false,
+                                            "underlined": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Fuse Time: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "140 ticks",
+                                            "color": "yellow",
+                                            "italic": false,
+                                            "underlined": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Effects: ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "Blindness (00:05)",
+                                            "color": "dark_aqua"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "           ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "Slowness (00:05)",
+                                            "color": "dark_aqua"
+                                        }
+                                    ]
+                                ],
+                                "item_model": "gbg:throwables/smoke_grenade",
+                                "minecraft:custom_data": {
+                                    "gbg": {
+                                        "is_throwable": 1,
+                                        "throwable_life": 140,
+                                        "impact_type": 5,
+                                        "explode_on_impact": 0
+                                    }
+                                },
+                                "minecraft:max_stack_size": 16,
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1000000,
+                                    "animation": "none",
+                                    "has_consume_particles": false
+                                },
+                                "!jukebox_playable": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

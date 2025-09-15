@@ -1,0 +1,1 @@
+loot give @s loot modern_guns:ammo/sniper_rifle_magazine

@@ -1,0 +1,6 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{gbg:{reload_speed:30}}"
+    }
+  ]

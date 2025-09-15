@@ -1,0 +1,15 @@
+{
+    "values": [
+        "minecraft:sonic_boom",
+        "gbg:bullet_standard",
+        "gbg:bullet_light",
+        "gbg:bullet_heavy",
+        "gbg:laser_standard",
+        "gbg:laser_strong",
+        "gbg:explosion",
+        "gbg:ray",
+        "gbg:flame",
+        "gbg:flame_turret",
+        "gbg:bullet_turret"
+    ]
+}

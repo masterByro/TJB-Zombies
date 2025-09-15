@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:explosion",
+        "minecraft:player_explosion",
+        "minecraft:bad_respawn_point",
+        "gbg:bullet_standard",
+        "gbg:bullet_light",
+        "gbg:bullet_heavy",
+        "gbg:laser_standard",
+        "gbg:laser_strong",
+        "gbg:explosion",
+        "gbg:ray",
+        "gbg:flame",
+        "gbg:flame_turret",
+        "gbg:bullet_turret"
+    ]
+}
