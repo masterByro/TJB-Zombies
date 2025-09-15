@@ -1,7 +1,7 @@
 execute if data entity @s {Inventory:[{Slot:4b,components:{"minecraft:custom_name":{text:"Thompson"}}}]} run tag @s add owned
 execute if data entity @s {Inventory:[{Slot:5b,components:{"minecraft:custom_name":{text:"Thompson"}}}]} run tag @s add owned
 
-execute unless entity @s[tag=owned] if score @s Money < ThompsonCost Prices run playsound minecraft:block.barrel.open master @s ~ ~ ~ 1 1
+execute unless entity @s[tag=owned] if score @s Money < ThompsonCost Prices run playsound minecraft:block.shulker_box.close master @s ~ ~ ~ 1 1
 execute unless entity @s[tag=owned] if score @s Money >= ThompsonCost Prices run function gbg:zombies/shop/guns/thompson_gun
 
 execute store result score @s AmmoCount run clear @s minecraft:command_block[minecraft:custom_data={thompson_magazine:1b}] 0
