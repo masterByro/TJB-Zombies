@@ -8,8 +8,8 @@ scoreboard players set @a regenTimer 0
 
 tag @a remove Juggernog
 function gbg:zombies/doors/doors_off
-function gbg:misc/stand_hide
-execute as @a run function gbg:misc/reset_player
+function gbg:zombies/stands/stand_hide
+execute as @a run function gbg:zombies/misc/reset_player
 
 kill @e[type=zombie]
 kill @e[type=shulker,tag=crawl_shulker]
@@ -20,6 +20,6 @@ stopsound @a
 
 
 function gbg:zombies/shop/shop_price_set
-function gbg:misc/wait_round
+function gbg:zombies/rounds/wait_round
 
 
