@@ -42,6 +42,6 @@ execute as @p[tag=ZombieRound] run function gbg:zombies/zombie_stats/wave_zombie
 
 execute as @p[tag=WolfRound] run function gbg:zombies/zombie_stats/wave_wolf_amount
 execute as @p[tag=WolfRound] run function gbg:zombies/zombie_stats/wave_wolf_spawn_rate
-
+execute as @p[tag=WolfRound] run playsound minecraft:block.beacon.activate master @a ~ ~ ~ 1 1
 scoreboard players set Global GamePlaying 1
 
