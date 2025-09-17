@@ -1,4 +1,4 @@
-clear @s minecraft:tnt
+clear @s minecraft:gray_candle
 tag @e remove canDrop
 
 # 2. Play a sound to the player
