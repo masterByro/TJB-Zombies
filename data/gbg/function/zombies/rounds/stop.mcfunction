@@ -18,6 +18,7 @@ tag @a remove Downed
 tag @a remove Juggernog
 tag @a remove QuickReload
 kill @e[type=zombie]
+kill @e[type=wolf]
 kill @e[type=minecraft:drowned]
 kill @e[type=shulker,tag=crawl_shulker]
 effect give @a night_vision infinite 1 true

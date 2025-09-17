@@ -1,4 +1,5 @@
 clear @s minecraft:tnt
+tag @e remove canDrop
 
 # 2. Play a sound to the player
 execute at @a run playsound minecraft:entity.tnt.primed master @s ~ ~ ~ 1 1

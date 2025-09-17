@@ -4,8 +4,8 @@ execute if entity @s[distance=1.6..] run tag @p[tag=gbg.gun_shooter] add headsho
 
 execute if entity @p[tag=instakill] run scoreboard players operation gbg.damage gbg.temp = const1000 Const
 function gbg:misc/calculate_armored_damage
-scoreboard players add @p[tag=gbg.gun_shooter] Money 10
-execute as @p[tag=gbg.gun_shooter,tag=DoublePoints] run scoreboard players add @s Money 10
+execute unless entity @s[team=RedTeam] run scoreboard players add @p[tag=gbg.gun_shooter] Money 10
+execute unless entity @s[team=RedTeam] if entity @p[tag=gbg.gun_shooter,tag=DoublePoints] run scoreboard players add @p Money 10
 
 # Running correct damage function depending on gun damage type
 execute if score gbg.damage_type gbg.temp matches 1 at @s run function gbg:gun/shot/bullet_standard with storage gbg:macro input

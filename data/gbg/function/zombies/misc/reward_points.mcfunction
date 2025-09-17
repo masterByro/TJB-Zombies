@@ -13,5 +13,6 @@ execute if entity @s[tag=!headshot,scores={Damage=0},tag=DoublePoints] run score
 
 # Cleanup
 scoreboard players remove @s NewKill 1
+scoreboard players remove @s WolfKills 1
 scoreboard players set @s Damage 0
 execute if entity @s[tag=headshot] run tag @s remove headshot
