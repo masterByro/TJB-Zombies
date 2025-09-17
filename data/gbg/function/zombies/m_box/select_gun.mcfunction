@@ -1,4 +1,4 @@
-function give:clear_gun
+execute unless entity @e[type=armor_stand,tag=mBoxDisplay,scores={rng=2}] run function give:clear_gun
 tag @a[tag=mBoxUser] remove mBoxUser
 
 execute if entity @e[type=armor_stand,tag=mBoxDisplay,scores={rng=1}] run function gbg:zombies/m_box/guns/executioner
