@@ -1,6 +1,6 @@
-execute if score Global Wave matches 5 run attribute @s minecraft:max_health base set 20
-execute if score Global Wave matches 10 run attribute @s minecraft:max_health base set 25
-execute if score Global Wave matches 15.. run attribute @s minecraft:max_health base set 40
+execute if score Global Wave matches 5 run attribute @s minecraft:max_health base set 30
+execute if score Global Wave matches 10 run attribute @s minecraft:max_health base set 40
+execute if score Global Wave matches 15.. run attribute @s minecraft:max_health base set 60
 execute if score Global Wave matches 20.. run attribute @s minecraft:max_health base set 80
 execute if score Global Wave matches 25.. run attribute @s minecraft:max_health base set 120
 execute if score Global Wave matches 30.. run attribute @s minecraft:max_health base set 160

@@ -22,10 +22,12 @@ function gbg:zombies/doors/doors_make
 execute as @a[gamemode=adventure,tag=!clearing] run function gbg:zombies/misc/invent_maintain
 
 execute as @a[scores={NewKill=1..}] run function gbg:zombies/misc/reward_points
+execute as @a[scores={WolfKills=1..}] run function gbg:zombies/misc/reward_points
 execute as @a[scores={Damage=1..}] run function gbg:zombies/misc/reward_on_damage
 
 execute if score Global GamePlaying matches 1 at @a run particle minecraft:ash ~ ~5 ~ 40 1 40 0.05 300 force
-execute unless entity @e[type=zombie] if score Global ZombiesLeft matches 0 if score Global GamePlaying matches 1 run function gbg:zombies/rounds/wait_round
+execute unless entity @e[type=zombie] if score Global ZombiesLeft matches 0 if score Global GamePlaying matches 1 if entity @p[tag=ZombieRound] run function gbg:zombies/rounds/wait_round
+execute unless entity @e[type=wolf] if score Global WolvesLeft matches 0 if score Global GamePlaying matches 1 if entity @p[tag=WolfRound] run function gbg:zombies/rounds/wait_round
 
 #last zombie
 scoreboard players set Zombies ZombiesLeft 0
@@ -34,6 +36,7 @@ execute if score Global ZombiesLeft matches 0 if score Zombies ZombiesLeft match
 # Zombie Spawn
 scoreboard players add Global SpawnClock 1
 execute if score Global SpawnClock >= Global SpawnRate if score Global ZombiesLeft matches 1.. run function gbg:zombies/zombie_stats/summon_zombie
+execute if score Global SpawnClock >= Global SpawnRate if score Global WolvesLeft matches 1.. run function gbg:zombies/zombie_stats/summon_wolf
 
 # #Spawn Location
 # execute as @e[type=squid] at @s run summon armor_stand ~ ~ ~ {CustomName:"on",CustomNameVisible:1b,NoGravity:1b,Marker:1b}
@@ -44,13 +47,14 @@ execute as @e[type=glow_squid] at @s run summon armor_stand ~ ~ ~ {CustomName:"W
 execute as @e[type=glow_squid] at @s run scoreboard players set @e[type=armor_stand,nbt={CustomName:"Wall"}] WallHealth 100
 kill @e[type=glow_squid]
 
+kill @e[type=minecraft:experience_orb]
 
 #Zombie drops
-execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:tnt"}]}] run function gbg:zombies/drops/trigger_nuke
-execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:wooden_axe"}]}] run function gbg:zombies/drops/trigger_carpenter
+execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:gray_candle"}]}] run function gbg:zombies/drops/trigger_nuke
+execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:orange_candle"}]}] run function gbg:zombies/drops/trigger_carpenter
 execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:green_candle"}]}] run function gbg:zombies/drops/trigger_double_points
-execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:wither_skeleton_skull"}]}] run function gbg:zombies/drops/trigger_instakill
-execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:arrow"}]}] run function gbg:zombies/drops/trigger_max_ammo
+execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:light_gray_candle"}]}] run function gbg:zombies/drops/trigger_instakill
+execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:pink_candle"}]}] run function gbg:zombies/drops/trigger_max_ammo
 
 #Healing
 execute as @a at @s run function gbg:zombies/regen/regen_check
@@ -62,3 +66,7 @@ execute as @e[type=zombie,scores={ZombieSwingTimer=0,ZombieSwingCooldown=0}] at 
 # Zombies whose swing just finished (timer reached 0 and they’re still in cooldown)
 execute as @e[type=zombie,scores={ZombieSwingTimer=0,ZombieSwingCooldown=1..},tag=Swinging] at @s if entity @e[type=armor_stand,nbt={CustomName:"Wall"},distance=..1] if entity @a[distance=..2.5] run execute at @s as @a[distance=..2.5] run damage @s 3
 execute as @e[type=zombie,scores={ZombieSwingTimer=0,ZombieSwingCooldown=1..},tag=Swinging] at @s run function gbg:zombies/barricade/zombie_swing_damage
+
+# every tick, assign wolves a target
+execute as @e[type=wolf] at @s run data modify entity @s AngryAt set from entity @p UUID
+execute if entity @p[tag=WolfRound] as @e[type=armor_stand,tag=WolfSpawn] at @s run particle electric_spark ~ ~1 ~ 0.2 1 0.2 0.4 3 force

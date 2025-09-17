@@ -2,6 +2,7 @@
 say Stopping game
 scoreboard players set Global GamePlaying 0
 scoreboard players set Global ZombiesLeft 0
+scoreboard players set Global WolvesLeft 0
 scoreboard players set @a DownTimer 0
 scoreboard players set @a Money 0
 scoreboard players set @a Kills 0
@@ -17,10 +18,13 @@ stopsound @a
 tag @a remove Downed
 tag @a remove Juggernog
 tag @a remove QuickReload
+tag @a remove WolfRound
+
 kill @e[type=zombie]
 kill @e[type=wolf]
 kill @e[type=minecraft:drowned]
 kill @e[type=shulker,tag=crawl_shulker]
+effect clear @a
 effect give @a night_vision infinite 1 true
 gamemode creative @a
 time set day
