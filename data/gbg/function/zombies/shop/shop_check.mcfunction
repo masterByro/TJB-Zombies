@@ -19,6 +19,7 @@ execute if score @s Money >= GalvaknucklesCost Prices if entity @e[type=armor_st
 #Perkacola
 execute as @s at @s if entity @e[type=armor_stand,tag=Shop,tag=Juggernog,distance=..2] if score @s Money >= JuggernogPrice Prices unless entity @s[tag=Juggernog] run function gbg:zombies/perks/juggernog
 execute as @s at @s if entity @e[type=armor_stand,tag=Shop,tag=QuickReload,distance=..2] if score @s Money >= SpeedColaPrice Prices unless entity @s[tag=QuickReload] run function gbg:zombies/perks/quick_reload
+execute as @s at @s if entity @e[type=armor_stand,tag=Shop,tag=QuickReload,distance=..2] if score @s Money >= PackaPunchPrice Prices run function gbg:zombies/pack_a_punch/pack_a_punch
 
 
 tag @s remove clearing

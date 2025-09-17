@@ -20,6 +20,7 @@ scoreboard players set ThompsonAmmoCost Prices 600
 
 scoreboard players set JuggernogPrice Prices 2500
 scoreboard players set SpeedColaPrice Prices 2500
+scoreboard players set PackaPunchPrice Prices 5000
 
 scoreboard players set door1 DoorCost 1000
 scoreboard players set door2 DoorCost 1000
