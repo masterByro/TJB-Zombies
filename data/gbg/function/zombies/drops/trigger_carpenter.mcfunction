@@ -1,4 +1,4 @@
-clear @s minecraft:wooden_axe
+clear @s minecraft:orange_candle
 tag @e remove canDrop
 
 scoreboard players add @a[tag=!Downed,gamemode=adventure] Money 200

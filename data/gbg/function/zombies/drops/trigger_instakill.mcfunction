@@ -1,4 +1,4 @@
-clear @s minecraft:wither_skeleton_skull
+clear @s minecraft:light_gray_candle
 tag @e remove canDrop
 
 tag @a add instakill
